@@ -2,9 +2,13 @@
   "name": "myrandomuser",
   "version": "1.0.0",
   "description": "Random User Generator REST API in Node.js",
-  "main": "./Practicum 1/MyRandomUser/server.js",
+  /*"main": "./Practicum 1/MyRandomUser/server.js",
   "scripts": {
       "start": "node ./Practicum 1/MyRandomUser/server.js"
+  },*/
+  "main": "./server.js",
+  "scripts": {
+      "start": "node ./server.js"
   },
   "author": "Twan van Maastricht",
   "license": "ISC",
