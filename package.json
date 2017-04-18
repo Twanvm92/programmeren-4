@@ -1,10 +1,10 @@
 {
   "name": "myrandomuser",
   "version": "1.0.0",
-  "description": "\u0016Random User Generator REST API in Node.js",
-  "main": "server.js",
+  "description": "Random User Generator REST API in Node.js",
+  "main": "./Practicum 1/MyRandomUser/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "start": "node ./Practicum 1/MyRandomUser/server.js"
   },
   "author": "Twan van Maastricht",
   "license": "ISC",
