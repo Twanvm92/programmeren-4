@@ -211,7 +211,8 @@ app.get('/about', function(request, response) {
 })
 
 app.get('/json', function(request, response) {
-    response.json(json.results[1]);
+    var randomNumber = Math.floor(Math.random() * json.results.length);
+    response.json(json.results[randomNumber]);
 })
 
 
