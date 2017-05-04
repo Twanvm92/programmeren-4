@@ -6,4 +6,5 @@ node_modules
 # MacOS
 .DS_Store
 #WORD documenten
-Practicum2/.docx
+Practicum2/*.docx
+#jajaja
