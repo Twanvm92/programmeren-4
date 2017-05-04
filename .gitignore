@@ -8,4 +8,6 @@ node_modules
 #WORD documenten
 ~$*.doc*
 *.doc*
+#Alles in Practicum 2
+/Practicum2/*
 
