@@ -1,1 +1,1 @@
-web: node ./Practicum1/MyRandomUser/server.js
+web: node ./Practicum2/MochaProject/index.js

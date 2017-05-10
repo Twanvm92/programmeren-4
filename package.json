@@ -1,14 +1,20 @@
 {
-  "name": "myrandomuser",
+  "name": "myfirstmochaproject",
   "version": "1.0.0",
-  "description": "Random User Generator REST API in Node.js",
-  "main": "./Practicum1/MyRandomUser/server.js",
+  "description": "Practicum 2 test server",
+  "main": "./Practicum2/MochaProject/index.js",
   "scripts": {
-      "start": "node ./Practicum1/MyRandomUser/server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./Practicum2/MochaProject/index.js"
   },
-  "author": "Twan van Maastricht",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.3.0"
   }
 }

@@ -1,0 +1,14 @@
+{
+  "name": "MochaProject",
+  "version": "1.0.0",
+  "description": "Mocha Test Server",
+  "main": "./Practicum2/MochaProject/index.js",
+  "scripts": {
+      "start": "node ./Practicum2/MochaProject/index.js"
+  },
+  "author": "Twan van Maastricht",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
