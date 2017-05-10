@@ -14,9 +14,42 @@ router.get('/info', function (req, res) {
     })
 });
 
-router.get('/recipes', function (req, res) {
+router.get('/recipes', function (req, res, next) {
     res.json(recipes);
-})
+});
+//
+
+router.get('/recipe', function (req, res, next) {
+    var category = req.query.category || "";
+    var ingredient = req.query.ingredient || "";
+
+
+        var recipe = recipes.filter(function (c) {
+
+            return (c.category === category)
+        });
+
+        var recipe = recipes.filter(function (i) {
+
+
+            for(b = 0; b < i.ingredients.length; b++) {
+                if(i.ingredients[b].indexOf(ingredient) != -1) {
+                    return true;
+                }
+            }
+        });
+
+    console.log(recipe);
+
+    res.json(recipe);
+});
+
+
+router.get('/recipes/:number', function (req, res) {
+    var recipeNmb = req.params.number || "";
+
+    res.json(recipes[recipeNmb]);
+});
 
 router.all('*', function (req, res) {
     res.status(404);
